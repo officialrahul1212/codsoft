@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    .page{
+        background-color: rgb(255, 255, 255);
+    }
+
+    .Header{
+        height: 15%;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        background-color: orange;
+        padding-top: 0.5%;
+        padding-left: 2%;
+   
+    } 
+    .Logo{
+        display: flex;
+    }
+    .Logo img{
+       height: 60px;
+       width: 60px;
+       border-radius: 50pc;
+       border: 2px solid black; 
+    }
+    .Logo h2{
+        padding-left: 10px;
+    }
+    .tagline{
+        display: flex;
+        padding-left: 5%;
+       
+    }
+    .tagline-items{
+        padding: 10Px;
+        display: flex;
+        text-decoration: none;
+        margin: auto;
+    }
+    .tagline-items button{
+        background-color: orange;
+        height: 50px;
+        width: 80px;
+        margin: 1px 16px;
+        border-color: orange;
+    }
+
+    .About {
+        height: 30%;
+        width: 100%;
+    }
+    .image{
+        height: 510px;
+        width: 102%;
+    }
+    .headline{
+       position: absolute; 
+       top: 45%;
+       text-align: center;
+       color:rgb(0, 0, 0);
+       left: 30%;
+    }
+    .button-headline button{
+        height: 35px;
+        width: 110px;
+        background-color: orange;
+        border-radius: 25px;
+    }
+
+    
+    .silver{
+        background-color:rgb(238, 238, 238) ;
+    }
+    .package-title{
+        text-align: center;
+        margin-top: 2% ;
+        padding-top: 2%;
+    }
+    .package{
+        height: 40%;
+        width: 100%;
+        display: flex;
+        padding-bottom: 2%;
+    }
+    .package-items{
+        height: 40%;
+        width: 100%;
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-top: 1%;
+        justify-content: center;
+        border: 9px solid white;
+        background-color: white;
+        box-shadow: 0px 4px 8px 4px black ;
+    }
+    .package-items img{
+        border: 2px solid black;
+        height: 140px;
+        width: 210px;
+    }
+    .package-button button{
+        height: 30px;
+        width: 215px;
+        background-color: orange;
+        border: none;
+    }
+
+
+
+    .distinsion-title{
+        margin-top: 2%;
+        padding-top: 2%;
+        text-align: center;
+    }
+    .distinsion{
+        height: 50%;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 2%;
+    }
+    .distinsion-1{
+        display: flex; 
+        justify-content: center;
+    }
+    .distinsion-2{
+        display: flex;
+        justify-content: center;
+    }
+    .distinsion-item{
+        height: 20%;
+        width: 20%;
+        border: 2px solid white;
+        margin: 15px;
+        padding-top: 15px;
+        background-color: white;
+        border: 9px solid rgb(237, 237, 237);
+        box-shadow: 0px 4px 8px 0px black;
+       
+    }
+    .distinsion-item img{
+        height: 90px;
+        width: 150px;
+        border-radius: 5%;
+    }
+
+
+    .footer{
+        height: 20%;
+        width: 100%;
+        display: flex;
+        background-color: black;
+        color: white;
+    }
+    .vl{
+        border: 1px solid white;
+        margin-right: 5%;
+        margin-right: 2%;
+        margin-bottom: 1%;
+        margin-top: 1%;
+    }
+    .footer-end{
+        text-align: center;
+        background-color: white;
+        color: black;
+        padding: 6px;
+    }
+    .vll{
+        border: 1px solid rgb(8, 8, 8);
+    }
+
+</style>
+
+</head>
+
+<body class="page">
+    <div class="Header">
+        <div class="Logo">
+           <img src="images/logo.jpg">
+           <h2><span style="color: white;">T</span>RAVEL</h2>
+        </div>
+        <div class="tagline">
+            <a class="tagline-items" href="landingpage.html"><button >Home</button></a>
+            <a class="tagline-items" href="#book"><button>Book</button></a>
+            <a class="tagline-items" href="#PACKAGES"><button>Package</button></a>
+            <a class="tagline-items" href="#DISTINSION"><button>Destination</button></a>
+            <a class="tagline-items" href="#myskill"><button>Review</button></a>
+            <a class="tagline-items" href="#ContactUs"><button>ContactUs</button></a>
+            <a class="tagline-items" href="#CONTACT"><button>Login</button></a>
+        </div class="">
+    </div>
+
+
+    <div>
+        <div class="About">
+            <img  class="image" src="images/l3.jpg">
+            <div class="headline">
+               <h1>ADVANTURE IS WORTHWHILE</h1>
+              <h4>Discover New Places With us,Advanture Awaits...</h4>
+               <a  class="button-headline" href="#"><button >LearnMore...</button></a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="PACKAGES" class="silver">
+    <h2 class="package-title">PACKAGES</h2> 
+    <div class="package">
+        <div class="package-items">
+            <img src="images/ram.jpg">
+            <h3>Ram Temple</h3>
+            <p>Ram Temple aayodya india</p>
+            <a  id="book" class="package-button"><button>BOOK NOW ></button></a>
+        </div>
+        <div class="package-items">
+            <img src="images/rag.jpg">
+            <h3>Raigad Fort</h3>
+            <p>Raigad Fort maharastra india </p>
+            <a class="package-button"><button>BOOK NOW ></button></a>
+
+        </div>
+        <div class="package-items"> 
+            <img src ="images/lak.jpg">
+            <h3>Lakshadweep</h3>
+            <p>Lakshadweep bet india</p>
+            <a class="package-button"><button>BOOK NOW ></button></a>
+        </div>
+    </div>
+</div>
+
+
+<div id="DISTINSION" class="silver">
+    <h2  class="distinsion-title"> DISTINSION</h2>
+    <div class="distinsion">
+        <div class="distinsion-1">
+        <div class="distinsion-item">
+            <img src="images/Kashimir.jpg">
+            <h3>Kashimir</h3>
+            <p></p>
+        </div>
+        <div class="distinsion-item">
+            <img src="images/Kerala.jpg">
+            <h3>Kerala</h3>
+            <p></p>
+        </div>
+        <div class="distinsion-item">
+            <img src="images/kolkata.jpg">
+            <h3>kolkata</h3>
+            <p></p>
+        </div >
+    </div>
+    <div class="distinsion-2">
+        <div class="distinsion-item">
+            <img src="images/Ladakh.jpg">
+            <h3>Ladakh</h3>
+            <p></p>
+        </div>
+        <div class="distinsion-item">
+            <img src="images/Sikkim.jpg">
+            <h3>Sikkim</h3>
+            <p></p>
+        </div>
+        <div class="distinsion-item">
+            <img src="images/Rajastan.jpg">
+            <h3>Rajastan</h3>
+            <p></p>
+        </div>
+    </div>
+</div>
+</div>
+
+
+    <div id="ContactUs" class="footer">
+        <div>
+            <h3>About Us</h3>
+            <p>A travel booking website is an online platform that allows user to search ,compare,and book various travel-related services. such as flights ,accommodation, cars rentais ,and activities.</p>
+        </div>
+        <div class="vl"></div>
+        <div>
+            <h3>ContactUs</h3>
+            <p> 123 travel street,city=sangli, country=india<br>Email:taveluniverse@gmail.com<br>Phone +91 123-456-7890</p>
+        </div>
+        
+    </div>
+    <div class="vll"></div>
+    <div class="footer-end"><h6>&copy;2024 TravelBooke.All rights reserved.</h6></div>
+</body>
+</html>
